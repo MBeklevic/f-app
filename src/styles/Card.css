@@ -1,0 +1,39 @@
+.Card {
+  width: 198px;
+  height: 346px;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 8px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.Card:hover {
+  box-shadow: 0px 1px 24px 8px rgba(20, 20, 20, 0.3);
+}
+.Card img {
+  height: 286px;
+  width: auto;
+  background-size: cover;
+}
+.Card-Bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Card-Price {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+.Card-Bottom button {
+  padding: 8px 32.5px;
+  border: 1px solid #e8282b;
+  border-radius: 8px;
+  background-color: #fff;
+  color: #e8282b;
+  cursor: pointer;
+  font-size: 16px;
+}
+.Card-Bottom button:hover {
+  background-color: #f2f4f5;
+}

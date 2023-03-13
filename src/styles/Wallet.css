@@ -1,0 +1,25 @@
+.Wallet {
+  display: flex;
+  background-color: #303437;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  padding: 0;
+  border-radius: 8px;
+}
+.Wallet-imgArea {
+  background-color: #e8282b;
+  width: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 100%;
+  border-radius: 8px 0 0 8px;
+}
+.Wallet-value {
+  align-content: center;
+  padding: 0 21px;
+  font-weight: 700;
+  font-size: 18px;
+}

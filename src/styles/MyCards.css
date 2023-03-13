@@ -1,0 +1,55 @@
+.MyCards {
+  width: 1360px;
+  height: 530px;
+  background-color: #f2f4f5;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 122px;
+  border-radius: 8px;
+  padding: 24px;
+}
+.MyCards-overFive {
+  height: 922px;
+}
+.MyCards h1 {
+  font-size: 18px;
+  margin: 0;
+  font-family: "Source Sans Pro";
+}
+.MyCards-content {
+  display: flex;
+}
+.MyCards-content-overFive {
+  overflow: hidden;
+  min-height: 764px;
+  justify-content: flex-start;
+}
+.MyCards-cardsContainer {
+  margin: 24px;
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+.MyCards-Pages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.MyCards-Page {
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #fff;
+  font-weight: 700;
+  background: #cdcfd0;
+  margin: 4px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.MyCards-Pages img {
+  margin-left: 18px;
+  cursor: pointer;
+}

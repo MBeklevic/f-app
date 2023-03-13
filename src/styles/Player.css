@@ -1,0 +1,164 @@
+.Player {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 5;
+}
+.Player-Content {
+  width: 914px;
+  height: 869px;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.Player-ImgArea {
+  width: 914px;
+  height: 382px;
+  background: linear-gradient(180deg, #a3873c 0%, #e3d294 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  position: relative;
+}
+.Player-ImgArea > img {
+  width: 198px;
+  height: auto;
+}
+.Player-CloseIcon {
+  width: 16px;
+  height: 16px;
+  margin: 24px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: #000000;
+  opacity: 0.3;
+  border-radius: 8px;
+  padding: 16px;
+  cursor: pointer;
+}
+.Player-CloseIcon img {
+  fill: #fff;
+}
+.Player-Info {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  gap: 24px;
+}
+.Player-PrimaryInfo {
+  display: flex;
+  justify-content: space-between;
+}
+.Player-Marketing {
+  flex-basis: 43%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+  background-color: #f2f4f5;
+  border-radius: 8px;
+}
+.Player-Price {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 0;
+}
+.Player-Marketing button {
+  padding: 0 74px;
+  height: 48px;
+  border: 1px solid #e8282b;
+  border-radius: 8px;
+  background-color: #e8282b;
+  color: #fff;
+  cursor: pointer;
+  line-height: 16px;
+  font-size: 16px;
+}
+.Player-Name {
+  text-align: left;
+}
+.Player-Name p {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #e8282b;
+  margin-bottom: 0;
+}
+.Player-Attributes {
+  padding: 24px;
+  background-color: #f2f4f5;
+  border-radius: 8px;
+}
+.Player-Attributes h1 {
+  margin: 0;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.Player-AttributesArea {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 16px;
+}
+.Player-Attribute {
+  box-sizing: border-box;
+  height: 96px;
+  width: 118px;
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px 16px;
+}
+.Player-Attribute span {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 30px;
+}
+.Player-Attribute h4 {
+  margin: 0;
+  color: #000;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+}
+.Player-Attribute p {
+  margin: 0;
+  color: #979c9e;
+}
+.Player-Attribute p span {
+  color: #000;
+}
+.Player-SecondaryInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24;
+}
+.Player-Team {
+  flex-basis: 43%;
+  padding: 24px;
+  background-color: #f2f4f5;
+  border-radius: 8px;
+}
+.Player-CardType {
+  flex-basis: 43%;
+  padding: 24px;
+  background-color: #f2f4f5;
+  border-radius: 8px;
+}
+.Player-SecondaryInfo h1 {
+  margin: 0;
+  font-size: 24px;
+  line-height: 32px;
+}

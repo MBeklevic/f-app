@@ -1,0 +1,48 @@
+.Rejection {
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 0, 0, 0.8);
+  z-index: 7;
+}
+.Rejection-content {
+  box-sizing: border-box;
+  width: 400px;
+  height: 185px;
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-around; */
+  flex-direction: column;
+}
+.Rejection-content div {
+  margin: 16px 0;
+  /* font-family: "Source Sans Pro"; */
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 32px;
+  text-align: center;
+  padding: 0;
+  letter-spacing: 0;
+  box-sizing: content-box;
+}
+.Rejection-content button {
+  width: 100%;
+  padding: 16px;
+  margin-top: 24px;
+  border-radius: 8px;
+  background-color: #e8282b;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 16px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}

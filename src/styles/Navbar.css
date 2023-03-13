@@ -1,0 +1,35 @@
+.Navbar {
+  height: 32 px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 96px;
+}
+.Navbar a {
+  text-decoration: none;
+}
+.Navbar p {
+  /* font-family: "Source Sans Pro"; */
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 18px;
+  color: #cdcfd0;
+}
+
+.Navbar a:active {
+  color: blue;
+  transform: translateY(2px);
+}
+.Navbar p:hover {
+  color: #fff;
+  transform: translateY(2px);
+}
+.Navbar p:hover::after {
+  content: "";
+  width: 60%;
+  height: 4px;
+  background: #e8282b;
+  display: block;
+  margin: auto;
+}
