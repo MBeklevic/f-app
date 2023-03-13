@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import "../styles/Player.css";
+import CloseIcon from "../assets/CloseIcon.svg";
 import { useDispatch, useSelector } from "react-redux";
 import { hideCardDetails } from "../features/playerCardDisplaySlice";
 import { setTradeModal } from "../features/tradeModalSlice";
@@ -48,7 +49,7 @@ function Player() {
                 className="Player-CloseIcon"
                 onClick={() => dispatch(hideCardDetails())}
               >
-                <img alt="closeIcon" src="./assets/CloseIcon.svg" />
+                <img alt="closeIcon" src={CloseIcon} />
               </div>
             </div>
             <div className="Player-Info">
